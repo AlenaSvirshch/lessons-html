@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #f5e6e6, #c2e4eb);
+    font-size: 0px;
+    padding: 0px;
+}
+.container {
+    background: linear-gradient(to bottom, #faf0f0, #d5f5fcb2);
+    width: 1500px;
+    height: 900px;
+    margin: calc((100vh - 900px) / 2) auto;
+    border: 2px solid;
+    border-color: whitesmoke; 
+    border-radius: 20px; 
+    border-bottom: none; 
+}
+.header {
+    height: 60px;
+    width: 1500px;
+    background: rgba(255, 255, 255, 0.637);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.headername {
+    color: rgba(236, 68, 222, 0.904);
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 0px 60px;
+}
+.poisk{
+    height: 33px;
+    width: 300px;
+    background-color: rgba(233, 231, 231, 0.671);
+    margin:auto 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#poiskname{
+    color: rgb(168, 168, 168);
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    margin: 7px auto 7px 50px;
+}
+.middle{
+    color: rgba(146, 146, 146, 0.836);
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto 10px auto 10px;
+    
+}
+#middle{
+    color:rgba(236, 68, 222, 0.904);
+    font-weight: bolder;
+}
+.card {
+    width: 1500px;
+    height: 839px;
+    display: flex;
+}
+.card11 {
+    width: 1200px;
+    height: 839px;
+    border-right: #cde6ebde 1px solid;
+}
+.card112{
+    height: 70px;
+    width: 1100px;
+    margin: 30px auto 10px;
+}
+.card112 p{
+    font-size: 28px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 12.5px;
+}
+.card111{
+    height: 700px;
+    width: 1100px;
+    display: flex;
+    margin: 10px auto 30px;
+}
+.column{
+    height: 700px;
+    width: 275px;
+}
+#namecolumn{
+    font-size: 15px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 12.5px 0px 12.5px;
+    display: inline-block;
+}
+.pure1{
+    height: 140px;
+    width: 250px;
+    background: white;
+    display: flex;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+}
+#chips1{
+    height: 20px;
+    width: 100px;
+    background: rgba(238, 179, 243, 0.493);
+    margin: 13px;
+    border-radius: 20px;
+}
+#chipsname1{
+    font-size: 13px;
+    color: rgb(220, 82, 224);
+    font-family: 'Poppins', sans-serif;
+    margin: 1px 10px 1px 10px; 
+}
+#chips2{
+    height: 20px;
+    width: 80px;
+    background: rgba(160, 204, 255, 0.493);
+    margin: 13px;
+    border-radius: 20px;
+}
+#chipsname2{
+    font-size: 13px;
+    color: rgb(72, 83, 177);
+    font-family: 'Poppins', sans-serif;
+    margin: 1px 9px 1px 9px; 
+}
+#chips3{
+    height: 20px;
+    width: 90px;
+    background: rgba(178, 245, 174, 0.493);
+    margin: 13px;
+    border-radius: 20px;
+}
+#chipsname3{
+    font-size: 13px;
+    color: rgb(14, 110, 3);
+    font-family: 'Poppins', sans-serif;
+    margin: 1px 11px 1px 11px; 
+}
+.pure3{
+    height: 270px;
+    width: 250px;
+    background: white;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.part2{
+    height: 839px;
+    width: 299px;  
+}
+.part2 p{
+    color: black;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30.5px auto 12.5px 39.5px;
+    padding: 12.5px 0px 12.5px 0px;
+}
+#vote{
+    color: black;
+    font-size: 13px;
+    margin: 20px auto 0px auto;
+    padding: 5px 39.5px;
+}
+.voice1{
+    height: 6px;
+    width: 220px;
+    background: linear-gradient(to right, rgb(220, 82, 224) 30%, rgba(238, 179, 243, 0.493) 70%);
+    margin: 0px auto;
+}
+.voice2{
+    height: 6px;
+    width: 220px;
+    background: linear-gradient(to right, rgb(14, 110, 3) 60%, rgba(178, 245, 174, 0.493) 70%);
+    margin: 0 auto;
+}
+.voice3{
+    height: 6px;
+    width: 220px;
+    background: linear-gradient(to right, rgb(72, 83, 177) 20%, rgba(160, 204, 255, 0.493) 70%);
+    margin: 0 auto;
+}
+#voice1{
+    border-radius: 20px;
+}
+

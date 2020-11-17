@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*body{
+    border-top: solid;
+}*/
+.box {
+    font: 20px sans-serif;
+    background-color: lightcoral;
+    width: 500px; /*Ширина*/
+    /*width: 50vh;*/
+    /*height: 150px;/*Высота*/
+    /*min-height: 100px;
+    max-height: 200px;
+    /*height: 50vh;*/
+    /*overflow: auto;/*visible|hidden|scroll|auto*/
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;/*none - отсутствие границы*/
+    text-align: justify;
+    line-height: 2; 
+    border-right-color: lightslategrey;
+    /*border-bottom-style: dashed;
+    border-block-width: 10px;*/
+    border-bottom: 10px dashed;
+    /*border: solid;*/
+    /*padding: 20px; - отступ между границей и контентом со всех сторон*/ 
+    /*padding: 20px 100px 70px 0px; /*top - right - bottom - left*/
+    /*padding: 20px 50px; /*y - x*/
+    padding: 50px 100px 100px;
+    margin: 50px auto 100px;
+}
+/*.inside {
+    width: 40%;
+    height: 50%
+    background:#000;
+}*/
+/* 100vh-100% видимой области высоты окна браузера(viewport height) 
+ 100vw-100% видимой области ширины окна браузера(viewport width)*/
+
+ .menu{
+     width: 510px;
+     background: maroon;
+     margin: 0 auto;
+     list-style-type: none;
+     font: 30px fantasy;
+     color: mistyrose;
+ }
+ a{
+     color: mistyrose; /* унаследовать цвет от родителя*/
+     text-decoration: none;
+ }

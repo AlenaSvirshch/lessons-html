@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: rgb(189, 122, 122);
+    width: 700px;
+    height: 700px;
+    border-radius: 10px;
+    padding: 50px;
+    margin: calc(50vh - 400px) auto;
+    /* Начальный способ понимания размеров блока*/
+    /* box-sizing: content-box; */
+    box-sizing: content-box;
+    display: flex;
+    /* flex-direction - направление основной оси*/
+    flex-direction: row; /* row - строка, row-reverse, column, column-reverse*/
+    /*
+        justify-content - расположение элементов вдоль основной оси
+    */
+    /*justify-content: flex-start;*/ 
+    /*justify-content: flex-end;*/ 
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/ 
+    /*justify-content: space-around;*/
+    justify-content: center; 
+
+    /*
+    align-items - расположение элементов вдоль поперечной оси 
+    */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-items: center; 
+
+
+}
+.card {
+    width: 50px;
+    height: 100px;
+    font: 50px / 1.5 sans-serif;
+    color: rgb(70, 39, 39);
+    background: cornsilk;
+    border: 1px solid;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 4px;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.site{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    color: aliceblue;
+}
+.header{
+    background-color: wheat;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav{
+    background-color: blueviolet;
+    margin: 20px 100px 0px 100px;
+        
+}
+.number1{
+    background-color: chartreuse;
+    height: calc(100% / 4);
+    display: inline-block;
+    height: 800px;
+    width: 400px;
+}
+.st1{
+    background-color: darkslategrey;
+
+    height: 200px;
+    width: 100%;
+}
+.st2{
+    background-color: deeppink;
+    height: 100px;
+    width: 50%;
+}
+.st3{
+    background-color: gold;
+    height: 100px;
+    width: 50%;
+}
+.st4{
+    background-color: indianred;
+    height: 100px;
+    width: 50%;
+}
+.st5{
+    background-color: lightgreen;
+    height: 100px;
+    width: 50%;
+}
+.st6{
+    background-color: lightpink;
+    height: 200px;
+    width: 100%;
+}
+.number2{
+    background-color: crimson;
+    display: inline-block;
+    height: 800px;
+    width: 400px;
+}
+.number3{
+    background-color: darkcyan;
+    display: inline-block;
+    height: 800px;
+    width: 400px;
+}
+.number4{
+    background-color: darkorange;
+    display: inline-block;
+    height: 800px;
+    width: 400px;
+    margin: 0px 20px 0px 40px;
+}

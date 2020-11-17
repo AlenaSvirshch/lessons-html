@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    Пицца(Маргарита/4 сыра/Пеперони/Чизбургер/Гавайская)
+    Добавки(Сыр/Мясо/Грибы/Оливки/Ананасы/Ветчина)
+    Оплата
+    Адрес доставки
+    Имя
+    Телефон
+
+</head>
+<body>
+    <h1>Форма заказа пиццы</h1>
+   <form action="#" method="get">
+        Ваше имя: <input type="text" name="user_name">
+        <br>
+        Ваш телефон: <input type="tel" name="user_tel">
+        <br>
+        Ваша почта: <input type="email" name="user_mail">
+        <br>
+        Адрес доставки: <input type="text" name="user_adress">
+        <br>
+        Секретный код: <input type="password" name="pwd">
+        <br>
+        Дата доставки: <input type="date" name="user_date">
+        <br>
+        Время доставки: <input type="time" name="user_time">
+        <br>
+        Колличество пицц: <input type="number" name="count" min="1" max="10" step="1">
+        <br>
+        <h3>Какую пиццу выбираете?</h3>
+        <input type="radio" name="sort" value="Маргарита"> Маргарита<br>
+        <input type="radio" name="sort" value="4 сыра"> 4 сыра<br>
+        <input type="radio" name="sort" value="Пеперони"> Пеперони<br>
+        <input type="radio" name="sort" value="Чизбургер"> Чизбургер<br>
+        <input type="radio" name="sort" value="Гавайская"> Гавайская<br>
+        <h3>Способ оплаты</h3>
+                <label>
+            <input type="radio" name="pay">Наличными
+                </label>
+                <label>            
+            <input type="radio" name="pay">Картой
+                </label>
+                <h3>Что добавить к пицце?</h3>
+<input type="checkbox" name="add1">Грибы<br>
+<input type="checkbox" name="add1">Сыр<br>
+<input type="checkbox" name="add1">Ветчина<br>
+<input type="checkbox" name="add1">Помидоры<br>
+<input type="checkbox" name="add1">Оливки<br>
+
+        <br>
+        <br>
+        <input type="submit" value="Тык сюда!">
+        <input type="reset" value="Тык отсюда!">
+   </form>
+      </body>
+</html>

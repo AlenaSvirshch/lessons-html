@@ -1,0 +1,13 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    color: brown;
+    font: 30px "Segoe Script", cursive;
+    text-align: center;
+}
+p{
+    color: chartreuse;
+    font: 20 sans-serif;
+    text-decoration: overline;
+}

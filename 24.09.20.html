@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+                    <h1>Форма для заказа книги</h1>
+                        <form action="#" method="get">
+
+            Выберите магазин
+            <select name="city">
+                <option>Барнаул</option>
+                <option>Уфа</option>
+                <option selected>Кемерово</option>
+            </select>
+            <br>
+            Наименование книги: <input type="text" name="text">
+            <br>
+            Автор книги: <input type="text" name="text">
+            <br>
+            Год издания книги: <input type="number" name="year" min="1940" max="2020" value="2019" step="5">
+            <br>
+            Количество страниц: <input type="number" name="count" min="100" max="4000" step="10">
+            <br>
+            <br>
+        <fieldset>
+                    <legend>Категория книги</legend>
+            <input type="radio" name="category" value="JavsScript/html/css">JavsScript/html/css<br>
+            <input type="radio" name="category" value="Java">Java<br>
+            <input type="radio" name="category" value="PHP">PHP<br>
+            <input type="radio" name="category" value="Python">Python<br>
+            <input type="radio" name="category" value="C++">C++<br>
+        </fieldset>
+        <br>
+        <fieldset>
+                    <legend>Дополнительные параметры</legend>
+            <input type="checkbox" name="add1">Цветные картинки<br>
+            <input type="checkbox" name="add1">Детский формат<br>
+            <input type="checkbox" name="add1" checked>Начальный уровень<br>
+            <input type="checkbox" name="add1">Для продвинутых<br>
+            <input type="checkbox" name="add1">Жесткий переплёт<br>
+        </fieldset>
+                    <br>
+                    <textarea name="comment" cols="20" rows="5" placeholder="Напишите ваш комментарий к заказу"></textarea>
+                    <br>
+                    <br>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </form>
+
+    
+</body>
+</html>

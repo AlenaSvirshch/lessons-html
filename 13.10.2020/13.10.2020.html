@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 0;
+        }
+        .column{
+            width: 310px;/*2 квадратика по ширине + отсуп*/
+            height: 630px;/*4 квадратика по высоте + 3 отступа*/
+            background: red;
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: top;
+        }
+        .mini{
+            width: 150px;
+            height: 150px;
+            background-color: rosybrown;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .midi{
+            width: 310px;
+            height: 150px;
+            background-color: brown;
+        }
+        .maxi{
+            width: 310px;
+            height: 310px;
+            background-color: cadetblue;
+        }
+        .mr10{
+            margin-right: 10px;
+        }
+        .mb10{
+            margin-right: 10px;
+        }
+        .group{
+            
+        }
+    </style>
+</head>
+<body>
+        <div class="column">
+    <div class="mini mr10 mb10"></div>
+    <div class="mini mb10"></div>
+    <div class="midi mb10"></div>
+    <div class="midi mb10"></div>
+    <div class="mini mr10"></div>
+        </div>
+        <div class="column">
+    <div class="mini mr10 mb10"></div>
+    <div class="mini mr10"></div>
+    <div class="mini mr10 mb10"></div>
+    <div class="mini"></div>
+    <div class="mini mr10 mb10"></div>
+    <div class="mini mb10"></div>
+    <div class="midi"></div>
+        </div>
+        <div class="column">
+        <div class="maxi"></div>
+        <div class="midi"></div>
+        <div class="mini"></div>
+        </div>
+        <div class="column">
+            <div class="midi mb10"></div>
+            <div class="midi mb10"></div>
+            <div class="mini mr10 mb10"></div>
+        </div>
+    
+</body>
+</html>
